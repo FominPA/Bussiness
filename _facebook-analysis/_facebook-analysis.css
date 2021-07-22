@@ -1,0 +1,82 @@
+.facebook-analysis {
+  background-color: #1287BF;
+  padding: 95px 0 110px; }
+
+.facebook-analysis__inner {
+  width: 683px; }
+
+.facebook-analysis__title {
+  color: white; }
+
+.free-analysis-form {
+  background-image: url("../images/analysis-form-background.png");
+  width: 547px;
+  height: 400px;
+  padding-top: 9px;
+  color: #828282;
+  padding: 9px 68px 70px;
+  margin: auto; }
+
+.free-analysis-form__close {
+  font-weight: 300;
+  font-size: 15px;
+  background-color: #DE2B24;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 45px;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: calc(calc(100% - 22.5px) + 68px); }
+
+.free-analysis-form__text-input {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  border: 1px solid #B0B0B0;
+  padding: 15.5px 20px;
+  border-radius: 5px;
+  margin: 8px auto;
+  width: 400px;
+  display: block;
+  color: #828282; }
+  .free-analysis-form__text-input::-webkit-input-placeholder {
+    color: #B0B0B0; }
+  .free-analysis-form__text-input:-ms-input-placeholder {
+    color: #B0B0B0; }
+  .free-analysis-form__text-input::-ms-input-placeholder {
+    color: #B0B0B0; }
+  .free-analysis-form__text-input::placeholder {
+    color: #B0B0B0; }
+  .free-analysis-form__text-input:focus {
+    -webkit-box-shadow: 0 0 3px 0 rgba(18, 135, 191, 0.66);
+    box-shadow: 0 0 3px 0 rgba(18, 135, 191, 0.66);
+    border-color: #1287bf;
+    outline: 0; }
+
+.free-analysis-form__description {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 15px;
+  margin: 26px auto 34px; }
+
+.free-analysis-form__submit {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  background-color: #DE2B24;
+  border: 0;
+  border-radius: 3px;
+  padding: 16px 30px;
+  margin-top: 31px; }
+
+@media (max-width: 750px) {
+  .facebook-analysis {
+    display: none; } }

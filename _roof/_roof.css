@@ -63,10 +63,10 @@
   font-weight: bold;
   font-size: 15px;
   color: white;
+  display: inline-block;
   background-color: #DE2B24;
   padding: 9.5px 22.5px;
-  border-radius: 5px;
-  display: inline-block; }
+  border-radius: 5px; }
 
 @media (max-width: 850px) {
   .roof__navigation-inner {

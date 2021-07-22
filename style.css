@@ -4,6 +4,7 @@
 @import url("_about-us/_about-us.css");
 @import url("_our-approch/_our-approch.css");
 @import url("_our-work/_our-work.css");
+@import url("_facebook-analysis/_facebook-analysis.css");
 @import url("_menu/_menu.css");
 @import url("_banner/_banner.css");
 @import url("_section-title/_section-title.css");
@@ -22,80 +23,6 @@ body {
   color: #424242;
   text-align: center;
   font-family: 'Helvetica Neue', sans-serif; }
-
-#FacebookAnalysis {
-  background-color: #1287BF;
-  padding: 95px 0 110px; }
-  #FacebookAnalysis .wrapper {
-    width: 683px; }
-  #FacebookAnalysis .title {
-    color: white; }
-  #FacebookAnalysis form {
-    background-image: url("../images/analysis-form-background.png");
-    width: 547px;
-    height: 400px;
-    padding-top: 9px;
-    color: #828282;
-    padding: 9px 68px 70px; }
-    #FacebookAnalysis form .form-close {
-      font-weight: 300;
-      font-size: 15px;
-      background-color: #DE2B24;
-      color: #fff;
-      border: 2px solid white;
-      border-radius: 100%;
-      width: 45px;
-      height: 45px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-pack: distribute;
-      justify-content: space-around;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      margin-left: calc(calc(100% - 22.5px) + 68px); }
-    #FacebookAnalysis form input[type='text'] {
-      font-family: 'Helvetica', sans-serif;
-      font-size: 14px;
-      border: 1px solid #B0B0B0;
-      padding: 15.5px 20px;
-      border-radius: 5px;
-      margin: 8px auto;
-      width: 400px;
-      display: block;
-      color: #828282; }
-      #FacebookAnalysis form input[type='text']::-webkit-input-placeholder {
-        color: #B0B0B0; }
-      #FacebookAnalysis form input[type='text']:-ms-input-placeholder {
-        color: #B0B0B0; }
-      #FacebookAnalysis form input[type='text']::-ms-input-placeholder {
-        color: #B0B0B0; }
-      #FacebookAnalysis form input[type='text']::placeholder {
-        color: #B0B0B0; }
-      #FacebookAnalysis form input[type='text']:focus {
-        -webkit-box-shadow: 0 0 3px 0 rgba(18, 135, 191, 0.66);
-        box-shadow: 0 0 3px 0 rgba(18, 135, 191, 0.66);
-        border-color: #1287bf;
-        outline: 0; }
-    #FacebookAnalysis form p {
-      font-family: 'Helvetica', sans-serif;
-      font-size: 15px;
-      margin: 26px auto 34px; }
-    #FacebookAnalysis form input[type='submit'] {
-      font-family: 'Helvetica Neue', sans-serif;
-      font-size: 15px;
-      font-weight: bold;
-      background-color: #DE2B24;
-      color: white;
-      border: 0;
-      border-radius: 3px;
-      padding: 16px 30px;
-      margin-top: 31px; }
-
-@media (max-width: 750px) {
-  #FacebookAnalysis {
-    display: none; } }
 
 #Subscribe {
   padding: 90px 0 86px;
