@@ -1,0 +1,33 @@
+.about-us {
+  padding: 100px 0 120px; }
+
+.about-us__title {
+  padding-bottom: 45px; }
+
+.about-us__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.about-us__item {
+  width: 245px; }
+
+.about-us__item-title {
+  margin: 27px auto 12px;
+  font-size: 22px; }
+
+.about-us__item-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.5px; }
+
+@media (max-width: 760px) {
+  .about-us__item {
+    margin: 20px 10%; } }
+
+@media (max-width: 400px) {
+  .about-us__item {
+    margin: 20px auto; } }
