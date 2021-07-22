@@ -1,0 +1,95 @@
+.our-approch {
+  padding: 80px 0 130px;
+  background-color: #F3F3F3; }
+
+.our-approch__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 3px 0px rgba(89, 89, 89, 0.5);
+  box-shadow: 0 0 3px 0px rgba(89, 89, 89, 0.5);
+  margin-top: 40px; }
+
+.our-approch__item-image {
+  height: 236px; }
+
+.our-approch__item-desctiption {
+  padding: 72.5px 81.5px; }
+
+.our-approch__item-title {
+  line-height: 20px;
+  font-size: 18px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px; }
+
+.our-approch__item-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13.5px;
+  line-height: 22px;
+  color: #5C5C5C; }
+
+.our-approch__item-step {
+  display: inline-block;
+  margin: 0 -50.5px; }
+
+.our-approch__item-step-inner {
+  background-color: #DE2B24;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 101px;
+  width: 101px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 5px; }
+
+.our-approch__item-step-number {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold; }
+
+.our-approch__item-step-text {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px; }
+
+.our-approch__item_odd .our-approch__item-desctiption {
+  text-align: left; }
+
+.our-approch__item_even {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse; }
+  .our-approch__item_even .our-approch__item-desctiption {
+    text-align: right; }
+
+@media (max-width: 750px) {
+  .our-approch__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .our-approch__item-step {
+    margin: -50.5px 0; }
+  .our-approch__item-image {
+    width: 100%;
+    height: auto; } }
+
+@media (max-width: 470px) {
+  .our-approch__item-desctiption {
+    width: 290px;
+    padding: 72.5px 0;
+    margin: auto;
+    text-align: center; } }

@@ -1,0 +1,14 @@
+.section-title {
+  line-height: 26px; }
+  .section-title .section-title__title {
+    font-weight: bold;
+    font-size: 36px; }
+  .section-title .section-title__text {
+    margin: 5px auto 10px;
+    font-weight: 300;
+    font-size: 20px; }
+  .section-title .section-title__separator {
+    height: 5px;
+    width: 47px;
+    margin: auto;
+    background-color: #424242; }

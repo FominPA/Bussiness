@@ -1,8 +1,11 @@
 @import url("../Helvetica/font.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("_roof/_roof.css");
+@import url("_about-us/_about-us.css");
+@import url("_our-approch/_our-approch.css");
 @import url("_menu/_menu.css");
 @import url("_banner/_banner.css");
+@import url("_section-title/_section-title.css");
 @import url("_wrapper/_wrapper.css");
 * {
   margin: 0;
@@ -18,135 +21,6 @@ body {
   color: #424242;
   text-align: center;
   font-family: 'Helvetica Neue', sans-serif; }
-
-.title {
-  line-height: 26px; }
-  .title h2 {
-    font-weight: bold;
-    font-size: 36px; }
-  .title p {
-    margin: 5px auto 10px;
-    font-weight: 300;
-    font-size: 20px; }
-  .title .title-separator {
-    height: 5px;
-    width: 47px;
-    margin: auto;
-    background-color: #424242; }
-
-#AboutUs {
-  padding: 100px 0 120px; }
-  #AboutUs .title {
-    padding-bottom: 45px; }
-  #AboutUs .items {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
-    #AboutUs .items .item {
-      width: 245px; }
-      #AboutUs .items .item h3 {
-        margin: 27px auto 12px;
-        font-size: 22px; }
-      #AboutUs .items .item p {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 13.5px; }
-
-@media (max-width: 760px) {
-  #AboutUs .items .item {
-    margin: 20px 10%; } }
-
-@media (max-width: 400px) {
-  #AboutUs .items .item {
-    margin: 20px auto; } }
-
-#OurApproch {
-  padding: 80px 0 130px;
-  background-color: #F3F3F3; }
-  #OurApproch .items .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #fff;
-    -webkit-box-shadow: 0 0 3px 0px rgba(89, 89, 89, 0.5);
-    box-shadow: 0 0 3px 0px rgba(89, 89, 89, 0.5);
-    margin-top: 40px; }
-    #OurApproch .items .item img {
-      height: 236px; }
-    #OurApproch .items .item .text {
-      padding: 72.5px 81.5px; }
-      #OurApproch .items .item .text h4 {
-        line-height: 20px;
-        font-size: 18px;
-        font-family: 'Helvetica', sans-serif;
-        font-weight: bold;
-        margin-bottom: 5px; }
-      #OurApproch .items .item .text p {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 13.5px;
-        line-height: 22px;
-        color: #5C5C5C; }
-    #OurApproch .items .item .step-number {
-      display: inline-block;
-      margin: 0 -50.5px; }
-      #OurApproch .items .item .step-number .step-number-content {
-        background-color: #DE2B24;
-        color: #fff;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        height: 101px;
-        width: 101px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        border: 2px solid white;
-        border-radius: 5px; }
-        #OurApproch .items .item .step-number .step-number-content .number {
-          font-family: Georgia, serif;
-          font-size: 60px;
-          font-weight: bold; }
-        #OurApproch .items .item .step-number .step-number-content .step {
-          font-family: 'Helvetica', sans-serif;
-          font-size: 20px; }
-  #OurApproch .items .odd .text {
-    text-align: left; }
-  #OurApproch .items .even {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse; }
-    #OurApproch .items .even .text {
-      text-align: right; }
-
-@media (max-width: 750px) {
-  #OurApproch .items .item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-    #OurApproch .items .item .step-number {
-      margin: -50.5px 0; }
-    #OurApproch .items .item img {
-      width: 100%;
-      height: auto; } }
-
-@media (max-width: 470px) {
-  #OurApproch .items .item .text {
-    width: 290px;
-    padding: 72.5px 0;
-    margin: auto;
-    text-align: center; } }
 
 #OurWork {
   padding: 110px 0 140px;
