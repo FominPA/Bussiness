@@ -1,0 +1,12 @@
+.wrapper {
+	width: 1020px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin: auto;
+}
+
+@media (max-width: 1040px) {
+	.wrapper {
+		max-width: calc(100% - 4px);
+	}
+}

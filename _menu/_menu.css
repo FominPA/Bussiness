@@ -1,0 +1,20 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.menu__separator {
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+  background-color: #000; }
+
+.menu__item {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0 10px; }
+  .menu__item:hover {
+    color: #DE2B24; }

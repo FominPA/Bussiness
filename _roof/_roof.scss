@@ -1,0 +1,65 @@
+.roof__contacts {
+	background-color: #F0F2F4;
+	border-bottom: 1px solid #E2E2E2;
+	font-size: 15px;
+	font-family: 'Helvetica';
+}
+
+.roof__facebook-icon {
+	background-color: #1287BF;
+	color: white;
+	border-radius: 2px;
+	line-height: 24px;
+	width: 10px;
+	padding: 0 7px;
+}
+
+.roof__contacts-inner { 
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.roof__phone { padding: 5px 20px 5px 0; }
+
+.roof__e-mail {
+	padding: 5px 0 5px 20px;
+	border-left: 1px solid #E2E2E2;
+}
+
+.roof__navigation { padding: 40px 0; }
+
+.roof__navigation-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	text-align: left;
+
+	i { font-size: 57px; color: #DD2A24; margin-right: 5px; }
+
+	.heading {
+		font-size: 37px;
+		font-weight: bold;
+	}
+
+	.line { font-size: 15px; }
+}
+
+.roof__button {
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	background-color: #DE2B24;
+	padding: 9.5px 22.5px;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+@media (max-width: 850px) {
+	.roof__navigation-inner { flex-direction: column; }
+	.roof__menu { margin: 20px auto; }
+}

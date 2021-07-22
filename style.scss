@@ -1,12 +1,10 @@
 @import url('../Helvetica/font.css');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-// ----------------------- Reset ----------------------- //
+// --------------------- Normalize --------------------- //
 
 * { margin: 0; padding: 0; }
 a { color: #424242; text-decoration: none; }
-
-// ------------------- General styles ------------------ //
 
 body {
 	background-color: #fff;
@@ -16,149 +14,7 @@ body {
 	font-family: 'Helvetica Neue', sans-serif;
 }
 
-.wrapper {
-	width: 1020px;
-	padding: 0 2px;
-	margin: auto;
-}
-
-@media (max-width: 1040px) {
-	.wrapper {
-		width: calc(100% - 4px);
-	}
-}
-
 // ---------------------- Blocks ----------------------- //
-
-#Header {
-	background-color: #F0F2F4;
-	border-bottom: 1px solid #E2E2E2;
-
-	font-size: 15px;
-	font-family: 'Helvetica';
-
-	.fa-facebook-f {
-		background-color: #1287BF;
-		color: white;
-		border-radius: 2px;
-		line-height: 24px;
-		width: 10px;
-		padding: 0 7px;
-	}
-
-	.wrapper { 
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-	}
-
-	.phone { padding: 5px 20px 5px 0; }
-	.e-mail {
-		padding: 5px 0 5px 20px;
-		border-left: 1px solid #E2E2E2;
-	}
-
-}
-
-#TopBar {
-	padding: 40px 0;
-
-	.wrapper {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
-	.logo {
-		display: flex;
-		text-align: left;
-
-		i { font-size: 57px; color: #DD2A24; margin-right: 5px; }
-
-		.heading {
-			font-size: 37px;
-			font-weight: bold;
-		}
-
-		.line { font-size: 15px; }
-	}
-
-	.menu {
-		display: flex;
-		align-items: center;
-
-		.menu-separator {
-			height: 5px;
-			width: 5px;
-			border-radius: 100%;
-			background-color: #000;
-		}
-
-		.menu-item {
-			font-weight: bold;
-			font-size: 15px;
-			margin: 0 16px;
-			&:hover { color: #DE2B24; }
-		}
-	}
-
-	.button {
-		font-weight: bold;
-		font-size: 15px;
-		color: white;
-		background-color: #DE2B24;
-		padding: 9.5px 22.5px;
-		border-radius: 5px;
-		display: inline-block;
-	}
-}
-
-@media (max-width: 850px) {
-	#TopBar .wrapper {
-		flex-direction: column;
-	}
-
-	#TopBar .menu {
-		margin: 20px auto;
-		.menu-item { margin: 0 10px; }
-	}
-}
-
-.banner-outer-overlay {
-	background-color: #1287BF;
-}
-
-#banner {
-	background-image: url('images/banner-background.png');
-	background-size: cover;
-	background-position: 0 100%;
-	height: 590px;
-	color: white;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-
-	h1 {
-		font-weight: bold;
-		font-size: 48px;
-	}
-
-	p {
-		font-weight: 300;
-		font-size: 30px;
-		margin-bottom: 30px;
-	}
-
-	.button {
-		font-weight: bold;
-		font-size: 23.5px;
-		color: white;
-		display: inline-block;
-		background-color: #F8CD53;
-		padding: 26px 40px;
-		border-radius: 5px;
-	}
-}
 
 .title {
 	line-height: 26px;
@@ -514,3 +370,13 @@ footer {
 	color: #CECECE;
 	padding: 27px 0;
 }
+
+// ------------------ Page Elements -------------------- //
+
+@import url('_roof/_roof.css');
+
+// ---------------------- Blocks ----------------------- //
+
+@import url('_menu/_menu.css');
+@import url('_banner/_banner.css');
+@import url('_wrapper/_wrapper.css');
