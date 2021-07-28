@@ -1,0 +1,70 @@
+.subscribe {
+  padding: 90px 0 86px;
+  background-color: #2A2A2A;
+  color: white; }
+
+.subscribe__title {
+  font-size: 29px;
+  padding-bottom: 30px; }
+
+.social-networks {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.social-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #515151;
+  border-radius: 3px;
+  margin: 0px 10px; }
+  .social-button:hover {
+    border-color: #DE2B24; }
+
+.subscribe-form {
+  margin-top: 35px; }
+
+.subscribe-form__text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #CECECE; }
+
+.subscribe-form__email {
+  padding: 20px;
+  border: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #CECECE;
+  background-color: #515151;
+  display: block;
+  margin: 30px calc(100% / 6);
+  width: calc(100% / 6 * 4); }
+
+.subscribe-form__submit {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border: 1px solid #515151;
+  border-radius: 3px;
+  color: white;
+  background-color: #2A2A2A;
+  padding: 15px 30px; }
+
+.copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #515151;
+  color: #CECECE;
+  padding: 27px 0; }
