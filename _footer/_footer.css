@@ -1,7 +1,9 @@
 .subscribe {
-  padding: 90px 0 86px;
   background-color: #2A2A2A;
   color: white; }
+
+.subscribe__inner {
+  padding: 90px 0 86px; }
 
 .subscribe__title {
   font-size: 29px;
