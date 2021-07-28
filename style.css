@@ -1,5 +1,6 @@
 @import url("../Helvetica/font.css");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("normalize.css");
 @import url("_roof/_roof.css");
 @import url("_about-us/_about-us.css");
 @import url("_our-approch/_our-approch.css");
@@ -9,21 +10,6 @@
 @import url("_banner/_banner.css");
 @import url("_section-title/_section-title.css");
 @import url("_wrapper/_wrapper.css");
-* {
-  margin: 0;
-  padding: 0; }
-
-a {
-  color: #424242;
-  text-decoration: none; }
-
-body {
-  background-color: #fff;
-  min-width: 320px;
-  color: #424242;
-  text-align: center;
-  font-family: 'Helvetica Neue', sans-serif; }
-
 #Subscribe {
   padding: 90px 0 86px;
   background-color: #2A2A2A;

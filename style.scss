@@ -3,16 +3,7 @@
 
 // --------------------- Normalize --------------------- //
 
-* { margin: 0; padding: 0; }
-a { color: #424242; text-decoration: none; }
-
-body {
-	background-color: #fff;
-	min-width: 320px;
-	color: #424242;
-	text-align: center;
-	font-family: 'Helvetica Neue', sans-serif;
-}
+@import url('normalize.css');
 
 // ---------------------- Blocks ----------------------- //
 
